@@ -167,23 +167,23 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
-  color: #808080 !important;
+  background-color: #1b1b1b !important;
+  border-color: #1b1b1b !important;
+  color: #ffffff !important;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary.focus,
 .btn-secondary.active {
-  color: #808080 !important;
-  background-color: #d9d9d9 !important;
-  border-color: #d9d9d9 !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #808080 !important;
-  background-color: #d9d9d9 !important;
-  border-color: #d9d9d9 !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -331,22 +331,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #cccccc;
-  color: #cccccc;
+  border-color: #000000;
+  color: #000000;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #808080;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  border-color: #1b1b1b;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
-  color: #808080 !important;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
+  color: #ffffff !important;
+  background-color: #1b1b1b !important;
+  border-color: #1b1b1b !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -466,7 +466,7 @@ body {
   color: #149dcc !important;
 }
 .text-secondary {
-  color: #ffffff !important;
+  color: #1b1b1b !important;
 }
 .text-success {
   color: #f7ed4a !important;
@@ -492,7 +492,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #cccccc !important;
+  color: #000000 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -1323,9 +1323,17 @@ body {
   padding: 20px 40px;
 }
 .cid-qSFIAGCQx6 .btn-secondary {
-  color: black !important;
+  color: white !important;
 }
 .cid-qSFIAGCQx6 p {
   width: 85%;
   margin: 0 auto;
+}
+.cid-qSFIAGCQx6 .app-img {
+  width: 175px;
+}
+@media (max-width: 480px) {
+  .cid-qSFIAGCQx6 .app-img {
+    margin-bottom: 15px;
+  }
 }
