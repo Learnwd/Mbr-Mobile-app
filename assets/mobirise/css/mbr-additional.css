@@ -23,10 +23,10 @@ body {
 }
 .display-1 {
   font-family: 'Nunito', sans-serif;
-  font-size: 4.4rem;
+  font-size: 4.6rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 7.04rem;
+  font-size: 7.36rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -63,9 +63,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.52rem;
-    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.68rem;
+    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -1328,20 +1328,4 @@ body {
 .cid-qSFIAGCQx6 p {
   width: 85%;
   margin: 0 auto;
-}
-.cid-qSL2xPFMUC {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-qSL2xPFMUC .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-qSL2y8RhI4 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-qSL2y8RhI4 .mbr-text {
-  color: #767676;
 }
